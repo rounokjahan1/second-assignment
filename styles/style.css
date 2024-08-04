@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
 *{
   margin: 0;
   padding: 0;
@@ -20,7 +21,17 @@
   max-width: 1060px;
   margin: 0 auto;
 }
+.btn-primary{
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  font-weight: 600;
+  background-color: rgb(230, 83, 60);
+  padding: 16px 40px;
+  border-radius: 42px;
+  border: none;
 
+  
+}
 /* navbar style */
 .header{
   background: linear-gradient(to bottom, #000000, #434343,#000000);
@@ -67,4 +78,128 @@
 }
 .about-span{
   padding: 0px 20px;
+}
+.hamburger-menu{
+  display: none;
+}
+/* banner style*/
+.banner-wrapper{
+  align-items: center;
+  border: 1px solid red;
+  justify-content: space-between;
+ 
+}
+.banner-text-content{
+  max-width: 520px;
+}
+.banner-title{
+  color: rgb(255, 255, 255);
+  font-size: 4.875rem;
+  font-weight: 900;
+  line-height: 120%;
+  
+}
+#shape-span{
+  font-family: 'Miama',sans-serif; 
+  font-size: 9.5rem;                            
+  font-weight: 400;
+
+}
+.banner-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+.banner-btn{
+ gap: 14px;
+}
+.download-app-btn{
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  font-weight: 600;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+  padding: 14px 40px;
+  border-radius: 42px;
+  
+
+}
+.banner-image{
+  position: relative;
+}
+.banner-image img{
+  width: 100%;
+  object-fit: cover;
+  
+}
+.free-workout-video{
+  width: 190px;
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 1rem 1.5rem;
+  top: 125px;
+  left: 230px;
+  
+}
+#free-workout-video-span{
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.video-tutorial{
+  position: absolute;
+  align-items: center;
+  background-color: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px 23px;
+  bottom: 63px;
+  left: -113px;
+}
+.round-shape{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(230, 83, 60);
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.play-icon{
+  font-size: 1rem;
+  color: rgb(250, 250, 249);
+  position: absolute;
+  left: 16px;
+  top: 9px;
+  display: none;
+}
+.video-tutorial-container{
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 1rem;
+  font-weight: 400;
+}
+#video-tutorial-span{
+  color: rgb(250, 250, 249);
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+
+
+
+
+
+/* responsive section */
+@media screen and (max-width: 576px) {
+  
 }
