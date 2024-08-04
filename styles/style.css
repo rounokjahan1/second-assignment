@@ -81,6 +81,8 @@
 }
 .hamburger-menu{
   display: none;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
 }
 /* banner style*/
 .banner-wrapper{
@@ -201,5 +203,21 @@
 
 /* responsive section */
 @media screen and (max-width: 576px) {
-  
+  .nav-links{
+    display: none;
+  }
+  .hamburger-menu{
+    display: block;
+  }
+  .navbar{
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .banner-wrapper{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
