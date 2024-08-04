@@ -181,8 +181,6 @@
   font-size: 1rem;
   color: rgb(250, 250, 249);
   position: absolute;
-  left: 16px;
-  top: 9px;
   display: none;
 }
 .video-tutorial-container{
@@ -216,8 +214,56 @@
   }
   .banner-wrapper{
     flex-direction: column;
-    justify-content: center;
+    gap: 3rem;
     margin-left: 20px;
     margin-right: 20px;
   }
+  .banner-title{
+    width: 285px;
+    font-size: 2.25rem;
+  }
+  #shape-span{
+    font-size: 4.5rem;
+  }
+  .banner-description{
+    max-width: 274px;
+  }
+  .club-span {
+    display: none;
+  }
+  
+  .download-app-btn{
+    font-size: 1rem;
+  }
+  .free-workout-video{
+    width: 146px;
+    top: 47px;
+    left: 192px;
+    font-size: .6rem;
+  }
+  #free-workout-video-span{
+    font-size: 1.875rem;
+  }
+  .video-tutorial{
+    width: 156px;
+    height: 73px;
+    padding: 15px 17px;
+    left: 12px;
+    top: 270px;
+  }
+  .round-shape{
+    width: 30px;
+    height: 30px;
+  }
+  .play-icon{
+    display: block;
+    top: 5px;
+    left: 10px;
+  }
+  .video-tutorial-container{
+    font-size: .75rem;
+  }
+  #video-tutorial-span{
+    font-size: 1.125rem;
+  } 
 }
