@@ -40,7 +40,6 @@
   justify-content: space-between;
   padding-top: 3.5rem;
   padding-bottom: 2rem;
-  border: 1px solid red;
 }
 .brand{
   color: rgb(230, 83, 60);
@@ -87,7 +86,6 @@
 /* banner style*/
 .banner-wrapper{
   align-items: center;
-  border: 1px solid red;
   justify-content: space-between;
  
 }
@@ -201,7 +199,6 @@
 .habits{
   max-width: 1044px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 .habits-title{
   color: rgb(255, 255, 255);
@@ -235,7 +232,7 @@
 
 .habits-card-img img{
   width: 80%;
-  border: 3px solid  rgb(34, 34, 34);;
+  border: 5px solid  rgb(34, 34, 34);;
   border-radius: 50%;
 
 }
@@ -250,7 +247,6 @@
   color: rgba(255, 255, 255, 0.5);
   font-size: .875rem;
   font-weight: 400;
-  
 }
 
 
@@ -260,7 +256,6 @@
 }
 .run-container{
   background-color: rgb(34, 34, 34);
-  border: 1px solid red;
   border-radius: 18px;
   padding: 30px;
   display: flex;
@@ -306,7 +301,6 @@
 
 .bmi-calculator-container{
   padding: 88px 0px;
-  border: 1px solid red;
   background-color: #000000;
 }
 .bmi-calculator-text-content{
@@ -497,7 +491,6 @@ input, select{
 .footer-container{
   background-color: rgb(34, 34, 34);
  
-  
 }
 .footer-text-container{
   padding: 65px 0px;
@@ -748,5 +741,23 @@ input, select{
 #team-img-id-2,
 #team-img-id-3{
   display: none;
+}
+/* footer container responsive */
+.footer-container{
+  padding: 20px;
+}
+.footer-text-container{
+  max-width: 317px;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+  padding-top: 24px;
+  padding-bottom: 52px;
+}
+.footer-row{
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+}
+.footer-reserved-text{
+  text-align: left;
 }
 }
