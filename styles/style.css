@@ -455,22 +455,20 @@ input, select{
   row-gap: 20px;
   column-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-  border: 1px solid red;
-  
-  
-  
 }
 .team-img-1,
 .team-img-2,
 .team-img-3,
 .team-img-4,
 .team-img-5,
-.team-img-6{
+.team-img-6,
+.team-img-7{
   width: 326.67px;
   height: 272px;
   position: relative;
-
-
+}
+.team-img-7{
+  display: none;
 }
 .team-image-container img{
   width: 100%;
@@ -665,5 +663,34 @@ input, select{
 .calculate-bmi .btn-primary{
   margin-bottom: 43px;
 
+}
+/* our team container responsive */
+.our-team-container{
+  padding: 20px;
+  padding-bottom: 46px;
+}
+.our-team-text-content{
+  max-width: 310px;
+  padding-bottom: 36px;
+}
+.our-team-text-content h2{
+  font-size: 2rem;
+}
+.team-image-container{
+  grid-template-columns: 1fr;
+}
+.team-img-7{
+  display: block;
+}
+.team-img-2,
+.team-img-7,
+.team-img-3,
+.team-img-6{
+  width: 100%;
+}
+#team-img-id-1,
+#team-img-id-2,
+#team-img-id-3{
+  display: none;
 }
 }
