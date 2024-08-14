@@ -495,6 +495,117 @@ select{
   font-size: .875rem;
   font-weight: 400;
 }
+
+/* select membership container starts here*/
+
+.select-membership-container{
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 88px;
+}
+.select-membership-text-content{
+  max-width: 650px;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+}
+.select-membership-text-content h2{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+  
+}
+.select-membership-text-content p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .875rem;
+  line-height: 24px;
+  font-weight: 400;
+
+}
+.membership-package-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  
+}
+.membership-package{
+  padding: 15px;
+  border-radius: 18px;
+  background-color: rgb(34, 34, 34);
+  transition: all 0.3s ease;
+}
+.membership-package:hover{
+  background-color: rgb(54, 54, 54);
+  outline: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.membership-package h4{
+  color: rgb(230, 83, 60);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.package-hr{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 15px;
+}
+.membership-package h2{
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.membership-package p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .875rem;
+}
+
+.package-facilities{
+  margin-top: 25px;
+}
+.package-facility{
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 14px;
+ 
+}
+.package-shape{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 6px;
+}
+.package-facility span{
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  font-size: .7rem;
+}
+ .package-facility h5{
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 500;
+  
+ }
+ .membership-package .btn-primary{
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in;
+}
+.membership-package .btn-primary:hover{
+  color: rgb(230, 83, 60);
+  background-color: rgb(255, 255, 255);
+  outline: 2px solid rgb(230, 83, 60);
+}
+
+
+
 /* footer section style */
 .footer-container{
   background-color: rgb(34, 34, 34);
@@ -543,7 +654,7 @@ select{
   text-decoration: none;
 }
 .footer-hr{
-  color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 .footer-reserved-text{
   padding: 35px 0px ;
