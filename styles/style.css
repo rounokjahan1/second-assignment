@@ -73,6 +73,7 @@
   border: none;
   border-radius: 46px;
   background-color: rgb(230, 83, 60);
+  margin-left: 3px;
   cursor: pointer;
 }
 .about-span{
@@ -84,7 +85,7 @@
   color: rgb(255, 255, 255);
 }
 /* banner style*/
-.banner-wrapper{
+.banner-container{
   align-items: center;
   justify-content: space-between;
  
@@ -115,7 +116,7 @@
   margin-bottom: 1.75rem;
 }
 .banner-btn{
- gap: 14px;
+  gap: 14px;
 }
 .download-app-btn{
   color: rgb(255, 255, 255);
@@ -123,7 +124,7 @@
   font-weight: 600;
   border: 1px solid rgb(255, 255, 255);
   background-color: transparent;
-  padding: 14px 40px;
+  padding: 16px 40px;
   border-radius: 42px;
   cursor: pointer;
 
@@ -193,7 +194,10 @@
   font-size: 1.5rem;
   font-weight: 900;
 }
+
+
 /* habits container section */
+
 .habits-container{
   background-color:black;
   padding: 100px 0;
@@ -249,6 +253,7 @@
   color: rgba(255, 255, 255, 0.5);
   font-size: .875rem;
   font-weight: 400;
+  letter-spacing: 0.3px;
 }
 
 
@@ -533,7 +538,7 @@ select{
   padding: 15px;
   border-radius: 18px;
   background-color: rgb(34, 34, 34);
-  transition: all 0.3s ease;
+  transition: all 0.3s;
 }
 .membership-package:hover{
   background-color: rgb(54, 54, 54);
@@ -584,6 +589,7 @@ select{
   left: 3px;
   top: 3px;
   font-size: .7rem;
+  color: rgb(34, 34, 34);
 }
  .package-facility h5{
   color: rgb(255, 255, 255);
@@ -679,7 +685,7 @@ select{
     margin-right: 20px;
   }
   /* banner responsive */
-  .banner-wrapper{
+  .banner-container{
     flex-direction: column;
     gap: 3rem;
     margin-left: 20px;
@@ -698,7 +704,12 @@ select{
   .club-span {
     display: none;
   }
-  
+  .banner-btn {
+    gap: 10px;
+  }
+  .banner-btn .btn-primary{
+    font-size: 1rem;
+   }
   .download-app-btn{
     font-size: 1rem;
   }
@@ -733,6 +744,8 @@ select{
   #video-tutorial-span{
     font-size: 1.125rem;
   } 
+
+
   /* habits section responsive */
   .habits-container{
     padding: 0;
@@ -743,7 +756,7 @@ select{
     margin-right: 20px;
   }
   .habits-title{
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   .habits-description{
     width: 80%;
@@ -791,7 +804,7 @@ select{
 /* bmi calculator container responsive*/
 .bmi-calculator-container{
   padding: 0px;
-  padding-top: 20px;
+  padding-top: 36px;
 }
 .bmi-calculator-text-content{
   margin: 30px 20px;
@@ -832,8 +845,7 @@ input, select{
 }
 /* our team container responsive */
 .our-team-container{
-  padding: 20px;
-  padding-bottom: 46px;
+  padding: 66px 20px;
 }
 .our-team-text-content{
   max-width: 310px;
@@ -859,6 +871,29 @@ input, select{
 #team-img-id-3{
   display: none;
 }
+
+/* select membership container */
+.select-membership-container{
+  padding: 20px;
+  padding-bottom: 66px;
+}
+.membership-package-container{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  
+}
+.select-membership-text-content{
+  margin-bottom: 30px;
+}
+.select-membership-text-content h2{
+  font-size: 2rem;
+  font-weight: 800;
+}
+.membership-package{
+  padding: 25px;
+}
+
+
 /* footer container responsive */
 .footer-container{
   padding: 20px;
@@ -877,4 +912,5 @@ input, select{
 .footer-reserved-text{
   text-align: left;
 }
+
 }
