@@ -540,10 +540,6 @@ select{
   background-color: rgb(34, 34, 34);
   transition: all 0.3s;
 }
-.membership-package:hover{
-  background-color: rgb(54, 54, 54);
-  outline: 1px solid rgba(255, 255, 255, 0.3);
-}
 
 .membership-package h4{
   color: rgb(230, 83, 60);
@@ -551,6 +547,7 @@ select{
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 15px;
+  transition: all 0.3s;
 }
 .package-hr{
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -604,11 +601,19 @@ select{
   margin-bottom: 10px;
   transition: all 0.3s ease-in;
 }
-.membership-package .btn-primary:hover{
+
+.membership-package:hover h4{
+  color: white;
+}
+.membership-package:hover .btn-primary{
   color: rgb(230, 83, 60);
   background-color: rgb(255, 255, 255);
-  outline: 2px solid rgb(230, 83, 60);
+  outline: 1px solid rgb(230, 83, 60);
 }
+.membership-package:hover{
+  background-color: rgb(230, 83, 60);
+}
+
 
 
 
