@@ -599,7 +599,7 @@ select{
   margin: auto;
   margin-top: 25px;
   margin-bottom: 10px;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s;
 }
 
 .membership-package:hover h4{
